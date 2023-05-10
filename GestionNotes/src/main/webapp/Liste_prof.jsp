@@ -124,7 +124,7 @@
 	</form>
       <table width="100%" class="table form">
       	<tr class="row">
-      		<td class="col-md-2 bg-dark text-light text-center">Id</td>
+      		<td class="col-md-2 bg-dark text-light text-center">code_id</td>
 			<td class="col-md-2 bg-dark text-light text-center">Nom</td>
       		<td class="col-md-2 bg-dark text-light text-center">Prenom</td>
       		<td class="col-md-2 bg-dark text-light text-center">Spécialité</td>
