@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-configuration PUBLIC
+		"-//Hibernate/Hibernate Configuration DTD 3.0//EN"
+		"http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+	<session-factory name="Gcon">
+		<property name="hibernate.connection.driver_class">com.mysql.jdbc.Driver</property>
+		<property name="hibernate.connection.url">jdbc:mysql://localhost:3306/GestionNotes</property>
+		<property name="hibernate.connection.username">root</property>
+		<property name="hibernate.dialect">org.hibernate.dialect.MySQLDialect</property>
+		<property name="hbm2ddl.auto">update</property>
+		<mapping class="Metier.Filiere" />
+		<mapping class="Metier.Etudiant" />
+		<mapping class="Metier.Compte" />
+		<mapping class="Metier.Element" />
+		<mapping class="Metier.Module" />
+		<mapping class="Metier.Modalite" />
+		<mapping class="Metier.Passe" />
+		<mapping class="Metier.Professeur" />
+		<mapping class="Metier.Semestre" />
+	</session-factory>
+</hibernate-configuration>
+
